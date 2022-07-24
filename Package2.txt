@@ -1,0 +1,16 @@
+package Package2;
+
+import Package1.AskInfo;
+
+public class RecieveInfo {
+	public RecieveInfo (int age) {
+		if (age <18) {
+			System.out.print("Sorry you are not eligible for voting");
+		}
+		else
+		{
+			System.out.print("Congratulations! you are eligible for voting! have a great day!");
+		}
+	}
+
+}

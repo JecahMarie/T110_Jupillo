@@ -1,0 +1,25 @@
+package Package1;
+import java.util.Scanner;
+import Package2.RecieveInfo;
+
+public class AskInfo {
+public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("---------- Input Information ----------");
+		
+		int votersID ;
+		System.out.print("Enter votersID:");
+		votersID=scan.nextInt();
+		scan.nextLine();
+		
+		String Name;
+		System.out.print("Enter Name:");
+		Name=scan.nextLine();
+		
+		String Age;
+		System.out.print("Enter Age:");
+		Age=scan.nextLine();
+}
+
+}
